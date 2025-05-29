@@ -38,7 +38,7 @@ def sort_count(count_dict):
     for char in count_dict:
         list_to_sort.append({"char" : char, "num" : count_dict[char]})
     
-    sorted_list = list_to_sort.sort(key=sort_on, reverse=True)
+    list_to_sort.sort(key=sort_on, reverse=True)
 
     return list_to_sort
 
